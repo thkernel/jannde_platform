@@ -381,9 +381,10 @@ a.btn-primary:visited {
     font-size: 80px;
     margin-bottom: 15px;
 }
+
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     font-weight: 900;
-    color: white;
+    color: black;
 }
 .display-1 {
     font-size: 6rem;
@@ -868,5 +869,5 @@ section{
     height: auto;
 }
 .bg-light{
-    background-color: transparent !important;
+    background-color: white !important;
 }
