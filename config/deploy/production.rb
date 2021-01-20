@@ -11,17 +11,17 @@ set :deploy_to, "/home/ubuntu/apps/rails/jannde/jannde.prod"   # the path to you
 set :rails_env, "production"
 
 #server "51.38.235.131", user: "root", roles: %w{app db web}, ssh_options: {forward_agent: true}
-server "51.89.167.78", user: "ubuntu", roles: %w{app db web}, ssh_options: {forward_agent: true}
+server "jannde.upcase.net", user: "ubuntu", roles: %w{app db web}, ssh_options: {forward_agent: true}
 
 set :branch, "master"
-set :port, 3010 #09-07-2020
+set :port, 3003 #09-07-2020
 
 
 
 
  set :nginx_config_name, "jannde.prod"
  set :nginx_server_name, "jannde.prod"
- set :puma_workers, 2
+ set :puma_workers, 1
 
 # role-based syntax
 # ==================
